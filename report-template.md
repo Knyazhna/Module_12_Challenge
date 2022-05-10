@@ -70,7 +70,7 @@ Summarize the results of the machine learning models, and include a recommendati
 If you do not recommend any of the models, please justify your reasoning.
 
 In our analysis of prediction on original data and resampling data the precision and recall value holds 0.99 which same for both the cases. However, accuracy after resampling of data is aroung 0.99 comparing which is superior to the original data prediction of 0.95.
-Performance depends on the predicted value of loan status where the 1's are high risk loans and 0's are healthy loans. In the original data set 0 75036 1 2500. Compared to oversampled data 0 56271 1 56271
+Performance depends on the predicted value of loan status where the 1's are high risk loans and 0's are healthy loans. In the original data set 0 75036 1 2500. Compared to oversampled data 0 56271 1 56271.
 As we can see in the original data the difference betweeen 0's and 1's is large, therefor the spliting data and then traing and testing seems bias. But  after resampling data into equal values the model gives better result without get biased.
 
 Recommendation would be the oversampled model which performed better comparing to the original model.

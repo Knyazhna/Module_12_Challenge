@@ -35,16 +35,16 @@ warnings.filterwarnings('ignore')
 ---
 ## Usage
 
--Steps for the Challenge: 
-Split the Data into Training and Testing Sets
+* Steps for the Challenge: 
+    * Split the Data into Training and Testing Sets
 
-Create a Logistic Regression Model with the Original Data
+    * Create a Logistic Regression Model with the Original Data
 
-Predict a Logistic Regression Model with Resampled Training Data
+    * Predict a Logistic Regression Model with Resampled Training Data
 
-Write a Credit Risk Analysis Report
+    * Write a Credit Risk Analysis Report
 
--Split the Data into Training and Testing Sets:
+* Split the Data into Training and Testing Sets:
 Open the credit_risk_resampling.ipynb file, import the above mentioned libraries and then read the lending_data.csv data from the Resources folder into a Pandas DataFrame.
 
 Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
@@ -55,7 +55,7 @@ Check the balance of the labels variable (y) by using the value_counts function.
 
 Split the data into training and testing datasets by using train_test_split.
 
--Create a Logistic Regression Model with the Original Data Employ your knowledge of logistic regression to complete the following steps:
+* Create a Logistic Regression Model with the Original Data Employ your knowledge of logistic regression to complete the following steps:
 
 Fit a logistic regression model by using the training data (X_train and y_train).
 
@@ -67,7 +67,7 @@ Calculate the accuracy score of the model.
 
 Generate a confusion matrix.
 
--Predict a Logistic Regression Model with Resampled Training Data
+* Predict a Logistic Regression Model with Resampled Training Data
 
 Did you notice the small number of high-risk loan labels? Perhaps, a model that uses resampled data will perform better. You’ll thus resample the training data and then reevaluate the model. Specifically, you’ll use RandomOverSampler.
 
@@ -85,7 +85,7 @@ Generate a confusion matrix.
 
 Print the classification report.
 
--Write a Credit Risk Analysis Report 
+* Write a Credit Risk Analysis Report 
 For this section, you’ll write a brief report that includes a summary and an analysis of the performance of both machine learning models that you used in this challenge. You should write this report as the README.md file included in your GitHub repository.
 
 Structure your report by using the report template that Starter_Code.zip includes, and make sure that it contains the following:
